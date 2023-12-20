@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/dd5033b0ad.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+
+    <title>GAME TASk</title>
+  </head>
+  <body>
+    <h1 class="gname">ROCK PAPER SCISSORS GAME</h1>
+    <div class="pcpu">
+      <div class="player">
+        <div class="label">
+          <p> <strong>PLAYER</strong> </p>
+        </div>
+        <div class="btns">
+          <div class="rock">
+            <button onclick="gamePlay('rock')">
+              <i class="fa-solid fa-hand-fist"></i>
+            </button>
+            <p>ROCK</p>
+          </div>
+          <div class="paper">
+            <button onclick="gamePlay('paper')">
+              <i class="fa-solid fa-hand"></i>
+            </button>
+            <p>PAPER</p>
+          </div>
+          <div class="scissors">
+            <button onclick="gamePlay('scissors')">
+              <i class="fa-solid fa-scissors"></i>
+            </button>
+            <p>SCISSORS</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="result"></div>
+
+    <div id="playerscore"></div>
+    <div id="cpuscore"></div>
+
+    <div class="container">
+    <button class="resetScore" onclick="resetScore()"><strong>RESET</button>
+</div>
+    <script src="./main.js"></script>
+  </body>
+</html>

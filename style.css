@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #4b5563;
+}
+.gname {
+  text-align: center;
+  margin: 40px;
+}
+.pcpu {
+  display: flex;
+  justify-content: space-around;
+}
+.player {
+  width: 40%;
+}
+.label {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+.btns {
+  display: flex;
+  justify-content: space-around;
+}
+.player button {
+  padding: 20px;
+  color: darkcyan;
+  background-color: black;
+  border-width: 0px;
+  border-radius: ;
+}
+.player button:hover {
+  color: black;
+  background-color: darkcyan;
+  cursor: pointer;
+}
+#result {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+  text-align: center;
+  color: darkcyan;
+}
+#playerscore,
+#cpuscore {
+  text-align: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.resetScore {
+  border-radius: 5px;
+  padding: 7px;
+  width: 200px;
+  background-color: darkcyan;
+}
+.resetScore:hover {
+  background-color: black;
+  color: darkcyan;
+}
